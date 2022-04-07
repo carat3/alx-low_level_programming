@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *HEY
  * main - entry point
  *
  * Return: Always 0 (success)
