@@ -1,10 +1,10 @@
-#include <stdio.h>  
+#include <stdio.h>
 /**
 * main - entry point
 *
 *Return: Always 0 (success/correct)
 *
-*/ 
+*/
 int main(void)
 {
 char ch;
@@ -19,5 +19,5 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
 }
 putchar('\n');
-return (0);  
+return (0);
 }
