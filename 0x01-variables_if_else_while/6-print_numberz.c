@@ -12,7 +12,7 @@ for (i = 40; i < 57; i++)
 {
 putchar(i);
 }
-putchar("\n");  
+putchar('\n');  
   
 return (0);  
 }
