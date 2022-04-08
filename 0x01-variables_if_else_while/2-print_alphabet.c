@@ -1,5 +1,5 @@
 #include <stdio.h>
- /**
+/**
 * main - entry point
 *
 *Return: Always 0 (success/correct)
@@ -10,8 +10,9 @@ char ch = 'a';
 
 while (ch <= 'z')
 {
-printf("%c\n", ch);
+printf("%c", ch);
 ch++;
 }
+printf("\n");
 return (0);
 }
