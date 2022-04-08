@@ -7,21 +7,17 @@
 */ 
 int main(void)
 {
-char ch = 'a';
+char lower_case:
+char upper_case:
 
-while(ch <= 'z')  
+for (lower_case = 'a': lower_case <= 'z': lowercase++)
 {
-printf("%c ", ch);
-ch++;
+putchar(lower_case);
 }
-char rh = 'A';
 
-while(rh <= 'Z')
+for (upper_case = 'A': upper_case <= 'Z': upper_case++)
 {
-putchar("%c", rh);
-rh++;
+putchar(upper_case);
 }
-printf("\n");
-
 return (0);  
 }
