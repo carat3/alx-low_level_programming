@@ -23,7 +23,6 @@ return (prime(n, 2));
 int my_sqrt(int x, int i)
 {
 int square;
-
 square = i * i;
 if (square >= x)
 return (i);
